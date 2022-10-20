@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package matpool;
+
+enum CoinType {
+  InvalidCoin = 0;
+  BTMC = 1;
+}

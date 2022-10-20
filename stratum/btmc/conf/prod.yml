@@ -1,0 +1,19 @@
+mode: prod
+
+# server
+stratum.id: 0
+stratum.port: 9119
+stratum.max_conn: 32768
+stratum.default_ban_period: 20m # 0s means disable
+
+# session
+session_timeout: 5m
+session.sched_interval: 0
+session.diff: 1050000
+
+# node
+node.url: http://127.0.0.1:9888
+node.name: btmc_mainnet
+node.sync_interval: 10ms
+
+service.port: 11002

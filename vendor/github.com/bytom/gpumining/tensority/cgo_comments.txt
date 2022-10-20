@@ -1,0 +1,7 @@
+/*
+#cgo CFLAGS: -I. -I /usr/local/cuda/include
+#cgo LDFLAGS: -L./bytomgpuverify -l:cSimdTs.a    -lstdc++ -L /usr/local/cuda/lib64 -lcudart -lcublas 
+#include "./bytomgpuverify/cSimdTs.h"
+*/
+
+
