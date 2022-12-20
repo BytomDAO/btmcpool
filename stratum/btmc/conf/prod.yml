@@ -14,6 +14,6 @@ session.diff: 1050000
 # node
 node.url: http://127.0.0.1:9888
 node.name: btmc_mainnet
-node.sync_interval: 10ms
+node.sync_interval: 100ms
 
 service.port: 11002

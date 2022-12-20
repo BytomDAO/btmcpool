@@ -6,7 +6,7 @@ BTMCPOOL
 ### 1) Get the source code
 
 ```
-$ git clone https://github.com/Bytom/btmcpool.git $GOPATH/src/github.com/bytom/ofmf
+$ git clone https://github.com/Bytom/btmcpool.git $GOPATH/src/github.com/bytom/btmcpool
 ```
 
 ### 2) Build source code
@@ -21,7 +21,7 @@ $ go build -o stratum_btmc
 ### 1) Configurate parameters
 
 ```
-$ cd $GOPATH/src/github.com/bytom/btmcpool/stratum/conf
+$ cd $GOPATH/src/github.com/bytom/btmcpool/stratum/btmc/conf
 $ vim prod.yml
 ```
 
@@ -30,7 +30,7 @@ set `node.url` with the bytom-class node url, then leave other parameters with d
 ### 2) Run btmcpool
 
 ```
-$ cd $GOPATH/src/github.com/bytom/btmcpool/stratum/cmd
+$ cd $GOPATH/src/github.com/bytom/btmcpool/stratum/btmc/cmd
 $ ./stratum_btmc -config=../conf/prod.yml
 ```
 
